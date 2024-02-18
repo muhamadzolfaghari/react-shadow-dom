@@ -10,7 +10,7 @@ The React simply can integrated with Shadow DOM, only by attachShadow method in 
 
 
 ```typescript
-const App = () => <div>The application</div>
+const App = () => (<div>The application</div>);
 
 // Choice where it needs to attach shadow DOM
 const root = document.querySelector('#root');
